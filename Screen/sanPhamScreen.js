@@ -19,6 +19,7 @@ const categories = ['Món nổi bật', 'Trà sữa', 'Ice Cream', 'Cream Cheese
 
 const SanPhamScreen = ({ navigation }) => {
     const lstSanPham = useSelector((state) => state.sanPham.listSanPham);
+    const [searchText, setSearchText] = useState('');
     const dispatch = useDispatch();
     const [selectedCategory, setSelectedCategory] = useState('All');
     const [filteredSanPham, setFilteredSanPham] = useState(lstSanPham);
@@ -28,15 +29,23 @@ const SanPhamScreen = ({ navigation }) => {
     }, [dispatch]);
 
     useEffect(() => {
-      if (selectedCategory === 'All') {
-          setFilteredSanPham(lstSanPham);
-      } else {
-          const filtered = lstSanPham.filter(product =>
-              Array.isArray(product.categories) && product.categories.includes(selectedCategory)
-          );
-          setFilteredSanPham(filtered);
-      }
-  }, [selectedCategory, lstSanPham]);
+        let filtered = lstSanPham;
+    
+        if (selectedCategory !== 'All') {
+            filtered = filtered.filter(product =>
+                Array.isArray(product.categories) && product.categories.includes(selectedCategory)
+            );
+        }
+    
+        if (searchText.trim() !== '') {
+            filtered = filtered.filter(product =>
+                product.name.toLowerCase().includes(searchText.toLowerCase())
+            );
+        }
+    
+        setFilteredSanPham(filtered);
+    }, [selectedCategory, searchText, lstSanPham]);
+    
   
 
     const renderCategory = (item) => (
@@ -90,10 +99,13 @@ const SanPhamScreen = ({ navigation }) => {
             <View style={styles.searchContainer}>
                 <Ionicons name="search" size={20} color="#aaa" />
                 <TextInput
-                    placeholder="Search"
-                    style={styles.searchInput}
-                    placeholderTextColor="#aaa"
-                />
+    placeholder="Search"
+    style={styles.searchInput}
+    placeholderTextColor="#aaa"
+    value={searchText}
+    onChangeText={setSearchText}
+/>
+
                 <TouchableOpacity>
                     <Ionicons name="filter" size={24} color="#f33" />
                 </TouchableOpacity>

@@ -43,3 +43,12 @@ export const updateSanPhamAction = (id, sanpham) => async (dispatch)=>{
         console.log("Lỗi sửa dữ liệu", error);
     }
 }
+
+export const searchSanPhamAction = (keyword) => async (dispatch) => {
+    try {
+        const response = await axios.get(`${apiUrl}?q=${keyword}`);
+        dispatch(setSanPhams(response.data)); // Cập nhật danh sách với kết quả tìm kiếm
+    } catch (error) {
+        console.log("Lỗi tìm kiếm sản phẩm", error);
+    }
+};
