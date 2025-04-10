@@ -1,0 +1,255 @@
+{
+  "sanpham": [
+    {
+      "name": "Ô Long Sữa Bobatt",
+      "price": 7.28,
+      "image": "https://tocotocotea.com/wp-content/uploads/2025/03/900x900_O%CC%82-Long-Su%CC%9B%CC%83a-Boba-Cheese.jpg",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Ô Long Đào Tiên",
+      "image": "https://tocotocotea.com/wp-content/uploads/2025/03/900x900_O%CC%82-Long-Da%CC%80o-Tie%CC%82n.jpg",
+      "categories": [
+        "Ice Cream",
+        "Trà sữa"
+      ],
+      "rating": 4.5,
+      "price": 8.8,
+      "description": "Ô Long Đào Tiên là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "20 mins"
+    },
+    {
+      "id": "3",
+      "name": "Jelly Coffee",
+      "image": "https://tocotocotea.com/wp-content/uploads/2021/11/Jelly-coffee.jpg",
+      "categories": [
+        "Món nổi bật",
+        "Cream Cheese"
+      ],
+      "rating": 4.9,
+      "price": 7.05,
+      "description": "Jelly Coffee là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "28 mins"
+    },
+    {
+      "id": "4",
+      "name": "Trà Dâu Kem Cheese",
+      "image": "https://tocotocotea.com/wp-content/uploads/2023/08/z4617754537982_689908f83d0785da485d70d0307e5130.jpg",
+      "categories": [
+        "Món nổi bật",
+        "Ice Cream",
+        "Trà sữa"
+      ],
+      "rating": 5,
+      "price": 7.45,
+      "description": "Trà Dâu Kem Cheese là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "30 mins"
+    },
+    {
+      "id": "5",
+      "name": "Kem Socola Đặc Biệt",
+      "image": "https://tocotocotea.com/wp-content/uploads/2023/05/CF-Kem-Tran-Chau-HK.jpg",
+      "categories": [
+        "Trà sữa"
+      ],
+      "rating": 4.8,
+      "price": 6.08,
+      "description": "Kem Socola Đặc Biệt là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "24 mins"
+    },
+    {
+      "id": "6",
+      "name": "Matcha Macchiato",
+      "image": "https://uories.com/wp-content/uploads/2020/03/MatchaMacchiato_www.uories.com_2-600x600.jpg",
+      "categories": [
+        "Ice Cream",
+        "Cream Cheese"
+      ],
+      "rating": 4.6,
+      "price": 9.16,
+      "description": "Matcha Macchiato là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "21 mins"
+    },
+    {
+      "id": "7",
+      "name": "Trà Vải Nhiệt Đới",
+      "image": "https://cdn.buffetposeidon.com/app/media/Nau-an/04.2023/2342024-cach-lam-tra-vai-nhiet-doi-buffet-poseidon-1.jpg",
+      "categories": [
+        "Trà sữa"
+      ],
+      "rating": 4.6,
+      "price": 7.42,
+      "description": "Trà Vải Nhiệt Đới là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "30 mins"
+    },
+    {
+      "id": "8",
+      "name": "Americano Mát Lạnh",
+      "image": "https://image.winci.com.vn/wp-content/uploads/2023/12/Cach-pha-Americano-Han-Quoc.webp",
+      "categories": [
+        "Special Menu",
+        "Ice Cream"
+      ],
+      "rating": 4.8,
+      "price": 5.19,
+      "description": "Americano Mát Lạnh là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "22 mins"
+    },
+    {
+      "id": "9",
+      "name": "Trà Xanh Latte",
+      "image": "https://cdn.tgdd.vn/Files/2021/08/13/1374899/cach-pha-latte-tra-xanh-thom-ngon-beo-ngay-dam-vi-tra-202108130923599894.jpg",
+      "categories": [
+        "Món nổi bật",
+        "Cream Cheese"
+      ],
+      "rating": 5,
+      "price": 8.8,
+      "description": "Trà Xanh Latte là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "27 mins"
+    },
+    {
+      "id": "10",
+      "name": "Cà Phê Trứng",
+      "image": "https://cubes-asia.com/storage/blogs/2023/ca-phe-trung.jpg",
+      "categories": [
+        "Ice Cream",
+        "Fresh Fruit Tea"
+      ],
+      "rating": 4.8,
+      "price": 7.77,
+      "description": "Cà Phê Trứng là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "28 mins"
+    },
+    {
+      "id": "11",
+      "name": "Kem Dừa Nướng",
+      "image": "https://goofoogelato.com/wp-content/uploads/2021/11/trasuakemduanuong-1024x967.jpg",
+      "categories": [
+        "Món nổi bật",
+        "Cà phê",
+        "Ice Cream"
+      ],
+      "rating": 4.9,
+      "price": 9.74,
+      "description": "Kem Dừa Nướng là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "28 mins"
+    },
+    {
+      "id": "12",
+      "name": "Trà Cam Sả",
+      "image": "https://lypham.vn/wp-content/uploads/2024/09/cach-lam-tra-dao-cam-sa.jpg",
+      "categories": [
+        "Trà sữa"
+      ],
+      "rating": 4.8,
+      "price": 7.69,
+      "description": "Trà Cam Sả là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "22 mins"
+    },
+    {
+      "id": "13",
+      "name": "Cà Phê Sữa Đá",
+      "image": "https://cubes-asia.com/storage/blogs/2023/ca-phe-sua-da.jpg",
+      "categories": [
+        "Trà sữa",
+        "Cream Cheese"
+      ],
+      "rating": 4.7,
+      "price": 5.69,
+      "description": "Cà Phê Sữa Đá là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "17 mins"
+    },
+    {
+      "id": "14",
+      "name": "Trà Gừng Mật Ong",
+      "image": "https://file.hstatic.net/1000164870/article/gnmo__9__6d1570d749774e52b451150ab9584a76.jpg",
+      "categories": [
+        "Món nổi bật",
+        "Trà sữa"
+      ],
+      "rating": 4.9,
+      "price": 8.08,
+      "description": "Trà Gừng Mật Ong là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "16 mins"
+    },
+    {
+      "id": "15",
+      "name": "Kem Dâu Tây",
+      "image": "https://file.hstatic.net/200000079049/file/cach-lam-kem-dau_0cb760a036de4823babbf9a06bd42568.jpg",
+      "categories": [
+        "Fresh Fruit Tea"
+      ],
+      "rating": 4.7,
+      "price": 9.34,
+      "description": "Kem Dâu Tây là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "18 mins"
+    },
+    {
+      "id": "16",
+      "name": "Trà Chanh Leo",
+      "image": "https://i.ytimg.com/vi/RJPVBzhOAw8/maxresdefault.jpg",
+      "categories": [
+        "Trà sữa",
+        "Cà phê"
+      ],
+      "rating": 4.8,
+      "price": 6.56,
+      "description": "Trà Chanh Leo là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "22 mins"
+    },
+    {
+      "id": "17",
+      "name": "Mocha Kem Tươi",
+      "image": "https://bizweb.dktcdn.net/100/482/849/files/13.jpg?v=1683341172069",
+      "categories": [
+        "Món nổi bật",
+        "Ice Cream",
+        "Cà phê"
+      ],
+      "rating": 5,
+      "price": 7.61,
+      "description": "Mocha Kem Tươi là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "30 mins"
+    },
+    {
+      "id": "18",
+      "name": "Hồng Trà Vải",
+      "image": "https://cdn.tgdd.vn/Files/2021/08/27/1378145/cach-lam-tra-vai-hoa-hong-thanh-mat-giai-nhiet-cho-ngay-nang-nong-202108270009234548.jpg",
+      "categories": [
+        "Cream Cheese",
+        "Trà sữa"
+      ],
+      "rating": 4.6,
+      "price": 6.36,
+      "description": "Hồng Trà Vải là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "15 mins"
+    },
+    {
+      "id": "19",
+      "name": "Matcha Đậu Đỏ",
+      "image": "https://thecoffeeholic.vn/storage/photos/2/H2M/Milkshake/2.jpg",
+      "categories": [
+        "Cream Cheese"
+      ],
+      "rating": 4.6,
+      "price": 8.08,
+      "description": "Matcha Đậu Đỏ là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "24 mins"
+    },
+    {
+      "id": "20",
+      "name": "Kem Bơ Sữa Dừa",
+      "image": "https://italio.vn/wp-content/uploads/2021/08/cach-lam-kem-bo-dua.jpgs",
+      "categories": [
+        "Fresh Fruit Tea",
+        "Ice Cream"
+      ],
+      "rating": 4.6,
+      "price": 8.36,
+      "description": "Kem Bơ Sữa Dừa là một món đặc biệt với hương vị thơm ngon, phù hợp mọi lứa tuổi.",
+      "prep_time": "27 mins"
+    }
+  ]
+}
